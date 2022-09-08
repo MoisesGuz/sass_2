@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Qwitcher+Grypen:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background-color: #4f6fb3;
+  display: flex;
+  justify-content: space-between;
+  align-content: center; }
+  .header__logo {
+    margin-left: 1rem; }
+  .header__ul {
+    display: flex;
+    list-style: none; }
+    .header__ul--active {
+      font-weight: 900; }
+    .header__ul li {
+      margin: 1rem;
+      font-family: "Combo", cursive; }
+    .header__ul a {
+      color: black;
+      text-decoration: underline; }

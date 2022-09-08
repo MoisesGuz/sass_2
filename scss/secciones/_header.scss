@@ -1,0 +1,30 @@
+.header {
+    background-color: $colorPrincipal;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    &__logo {
+        margin-left: 1rem;
+    }
+
+    &__ul {
+        display: flex;
+        list-style: none;
+
+        &--active {
+            font-weight: 900;
+        }
+
+        li {
+            margin: 1rem;
+            font-family: $cursiva;
+        }
+
+        a {
+            color: black;
+            text-decoration: underline;
+        }
+
+    }
+}
